@@ -4,7 +4,7 @@ Pixelizer is a simple web - application project , inspired by the Etch-a-Sketch 
 
 ## How it works
 
-Everytime the page is loaded the user is greeded with a 16x16 grid. The grid is created by the gridMaker function on the spot. The function creates the Columns of the CSS-Grid , then creates the boxes with their attributes and then appends the boxes onto the CSS-Grid. Next , for each newly created box the function creates the event-listeners needed so the user can paint onto the grid. Given the O(n) complexity of the function , I've decided to limit the grid size in the [10,99] range.
+Everytime the page is loaded the user is greeted with a 16x16 grid. The grid is created by the gridMaker function on the spot. The function creates the Columns of the CSS-Grid , then creates the boxes with their attributes and then appends the boxes onto the CSS-Grid. Next , for each newly created box the function creates the event-listeners needed so the user can paint onto the grid. Given the O(n) complexity of the function , I've decided to limit the grid size in the [10,99] range.
 
 ## Usage
 
