@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #c1edf5;
+}
+
+#tittle-container{
+    margin:auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f4cb;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    border: 5px dashed black;
+}
+
+#mega-container{
+    background-color: #d3f2ef;
+    background-image: url("wallpapertip_google-pixel-wallpaper_27944.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#button-container{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    border: transparent;
+    background-color:#f2e4a2;
+    padding: 4px;
+
+    
+}
+
+#slider-value{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+}
+
+#color-text{
+    font-family:'Press Start 2P', cursive;
+    font-size: 14px;
+    margin: 0px 0px 0px 95px;
+}
+
+#set-btn{
+    font-family:'Press Start 2P', cursive;
+    font-size: 14px;
+    border: 4px solid black;
+    padding: 4px;
+    margin: 0px 8px 0px 0px;
+    background-color:#ebebeb;
+
+}
+
+#container{
+    background-color: white;
+    border: 10px solid black;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: grid;
+}
+
+.box{
+    border: 1px solid #e6e3dc;
+}
+
+#reset-btn-container{
+    border: transparent;
+    text-align: center;
+    margin: 0px;
+    padding: 4px;
+    background-color:#f2e4a2 ;
+}
+
+#reset-btn{
+    font-family:'Press Start 2P', cursive;
+    font-size: 14px;
+    border: 4px solid black;
+    padding: 4px;
+    margin: 0px 8px 0px 450px;
+    background-color:#ebebeb;
+}
+
+footer{
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1qpx;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}

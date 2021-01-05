@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        </style>
+        <title id="page-title">Pixelizer</title>
+    </head>
+    <body>
+    <div id="tittle-container">
+        <h1 id="title">Pixelizer</h1>
+    </div>
+    <div id="mega-container">
+        <div id="button-container">
+            <button id="set-btn" type="button" >Set Grid Size:</button>
+            <span id="slider-value" style="color:black;">16</span>
+            <input id="slider" type="range" width="400"  min="10" max="99"  value="16" onchange="showSliderValue(this.value);">
+            <label id="color-text" for="color-picker">color:</label>
+            <input id="color-picker" type="color" value="#000000">
+        </div>
+        <div id="container"></div>
+        <div id="reset-btn-container">
+            <button id="reset-btn">Reset Board</button>
+        </div>
+    </div>
+    <footer id="rights">
+        <div id="creator">Site created by: <a href="https://github.com/Quibrick">Evangelos Gravanis</a></div>
+        <div></div>
+        <div id="rights">Background art provided by: <a href="https://www.wallpapertip.com/wpic/hTThb_pixels-wallpapers-high-quality-download-free-pixel-art/">wallpapertip.com</a></div>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+
+</html>
